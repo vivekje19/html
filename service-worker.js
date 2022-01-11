@@ -13,7 +13,7 @@ if (typeof importScripts === 'function') {
     /* injection point for manifest files.  */
     workbox.precaching.precacheAndRoute([
   
-      {"revision":"","url":"./manifest.json"}   
+      {"revision":"","url":"./js13kpwa.webmanifest"}   
 
      ]);
 
