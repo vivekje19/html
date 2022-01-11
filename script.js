@@ -4,7 +4,7 @@ function startPwa() {
 	
 
 	window.addEventListener("load", () => {
-		navigator.serviceWorker.register("./service-worker.js", { scope: 'https://free.okeezy.com/html1/' })
+		navigator.serviceWorker.register("./service-worker.js", { scope: '/' })
 		.then(registration => {
 			console.log("Service Worker is registered", registration);
 			
