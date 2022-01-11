@@ -1,3 +1,5 @@
+<?php echo "<b>This is testing page</b>"; ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
