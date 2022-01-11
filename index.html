@@ -40,6 +40,14 @@
 	
 		<script type="text/javascript">
 	   startPwa();
+
+	   let displayMode = 'browser';
+			const mqStandAlone = '(display-mode: standalone)';
+			if (navigator.standalone || window.matchMedia(mqStandAlone).matches) {
+			   displayMode = 'standalone';
+			}
+
+			alert(displayMode);
 	  </script>
   </body>
 
